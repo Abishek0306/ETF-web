@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.btn-primary {
+    background-color: #ff8800;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #ff7700;
+}

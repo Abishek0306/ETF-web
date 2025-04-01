@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('12.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.banner .btn {
+    background-color: #ff8800;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.banner img {
+    max-width: 100%;
+}

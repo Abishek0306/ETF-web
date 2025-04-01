@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fashion World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+       	 body {
+              font-family: Arial, sans-serif;
+              background-image: url("12.jpg");
+              background-size: cover;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+              margin: 0;
+        }
+
+        .login-container {
+                         background-color: #ffffff;
+                         padding: 30px;
+                         border-radius: 10px;
+                         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                         width: 350px;
+                         text-align: center;
+        }
+
+        h2 {
+           color: aqua;
+           margin-bottom: 20px;
+        }
+
+        .form-group {
+                    margin-bottom: 15px;
+                    text-align: left;
+        }
+
+        label {
+              display: block;
+              margin-bottom: 5px;
+              color: #0dcfdd;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #b2dfdb;
+            border-radius: 5px;
+            box-sizing: border-box;   
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #09c2f0;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-container">
+        <div class="logo">
+            <img src="" class="img-circle" width="304" height="236">
+        </div>
+        <h2>SCOOBY TASTY</h2>
+    <form>
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <a href="Forgot.html"><button type="button" class="btn btn-link">Forgot your password?</button></a>
+    <div>
+        <a href="Home.html"><button type="button" class="btn btn-primary">Log-in</button></a>
+    </div>
+    </form> 
+    <a href="Signup.html"><button type="button" class="btn btn-success">signup</button></a>
+    </div>    
+</body>
+</html>
